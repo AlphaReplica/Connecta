@@ -1,6 +1,6 @@
 {
   "name": "connecta",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "Websocket server for easy webRTC connection",
   "main": "index.js",
   "keywords": [
@@ -13,17 +13,14 @@
     "email": "ifrit88@gmail.com"
   },
   "license": "MIT",
-  "dependencies":
-  {
+  "dependencies":{
     "uws": "*"
   },
-  "devDependencies":
-  {
+  "devDependencies":{
     "uglify-js": "*"
   },
-  "repository":
-  {
+  "repository":{
     "type": "git",
-    "url": "git+https://github.com/mishoo/UglifyJS2.git"
+    "url": "git+https://github.com/AlphaReplica/Connecta.git"
   }
 }
