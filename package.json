@@ -1,0 +1,29 @@
+{
+  "name": "connecta",
+  "version": "0.2.1",
+  "description": "Websocket server for easy webRTC connection",
+  "main": "index.js",
+  "keywords": [
+    "uws",
+    "websocket",
+    "webRTC"
+  ],
+  "author": {
+    "name": "Beka Mujirishvili",
+    "email": "ifrit88@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies":
+  {
+    "uws": "*"
+  },
+  "devDependencies":
+  {
+    "uglify-js": "*"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "git+https://github.com/mishoo/UglifyJS2.git"
+  }
+}
