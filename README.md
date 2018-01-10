@@ -44,3 +44,5 @@ connecta.addEventListener('joinedRoom',function(e)
 	console.log("JOINED",e);
 });
 ```
+
+for more detailed example see: <a href='https://github.com/AlphaReplica/Connecta-Simple-Example'>Simple Chat Example</a>
