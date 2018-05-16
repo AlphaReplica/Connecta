@@ -8,7 +8,17 @@ Websocket server on top of uws to easily connect WebRTC Peers
 - Connects every WebRTC peer joined in same room automatically
 - WebRTC failover, if client doesn't support webRTC or has problems connecting any of the peers than server will act as message broker
 - autoreconnect
-- horizontal scaling (In experimental stage) by running master/slave servers where master only listens to slave servers where peers are connected
+
+
+<b>Whats updated:</b>
+- fixed ssl incorrect key param assign
+- added bytearray messaging as for webrtc and as webrtc failover 
+  - you optionally can pass array type enum argument when creating room but default is Int16Array
+  - you should create bytearray with connectaInstance.createArray(arraylength) after joining room
+- added base64 event encoding
+- removed experimental horizontal scaling, will be added in future versions as independent project
+
+<b>Experimental horizontal scaling removed in 0.2.5</b>
 
 <b>Example for creating and joining room, Server</b>
 ```
