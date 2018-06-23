@@ -3,14 +3,19 @@
 Websocket server on top of uws to easily connect WebRTC Peers
 
 <b>What it can do:</b>
-- designed for realtime games, backed by webrtc for low latency and minimum server load on heave traffic apps
+- designed for realtime games, backed by webrtc for low latency and minimum server load on heavy traffic apps
 - Room System (create/delete) rooms
 - Connects every WebRTC peer joined in same room automatically
 - WebRTC failover, if client doesn't support webRTC or has problems connecting any of the peers than server will act as message broker
 - autoreconnect
 
+<b>Whats updated in 0.2.7:</b>
+- fixed join room bugs
+- fixed bytearray length bug
+- added shortcut methods in ConnectaRoom
+- added post requests on active server
 
-<b>Whats updated:</b>
+<b>Whats updated in 0.2.6:</b>
 - fixed ssl incorrect key param assign
 - added bytearray messaging as for webrtc and as webrtc failover 
   - you optionally can pass array type enum argument when creating room but default is Int16Array
@@ -19,6 +24,7 @@ Websocket server on top of uws to easily connect WebRTC Peers
 - removed experimental horizontal scaling, will be added in future versions as independent project
 
 <b>Experimental horizontal scaling removed in 0.2.5</b>
+
 
 <b>Example for creating and joining room, Server</b>
 ```
