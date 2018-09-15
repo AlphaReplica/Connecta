@@ -9,6 +9,10 @@ Websocket server on top of uws to easily connect WebRTC Peers
 - WebRTC failover, if client doesn't support webRTC or has problems connecting any of the peers than server will act as message broker
 - autoreconnect
 
+<b>Whats updated in 0.2.9:</b>
+Because of UWS author desided to deprecate project added WS module for fallback
+by default when installing connecta it will install uws 10.148.1 but if some problems arise it will fall back to ws module
+
 <b>Whats updated in 0.2.8:</b>
 - Added OnJoined and onLeft Callbacks in Room
 
