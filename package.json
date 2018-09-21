@@ -1,6 +1,6 @@
 {
   "name": "connecta",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Websocket server for easy webRTC connection",
   "main": "index.js",
   "keywords": [

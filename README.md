@@ -9,6 +9,9 @@ Websocket server on top of uws to easily connect WebRTC Peers
 - WebRTC failover, if client doesn't support webRTC or has problems connecting any of the peers than server will act as message broker
 - autoreconnect
 
+<b>Whats updated in 0.3.1:</b>
+Added simple keep alive mechanism
+
 <b>Whats updated in 0.3.0:</b>
 Fixed OnBeforeDisconnect and OnDisconnect events,
 now onBeforeDisconnect is dispatched before disconnect routine starts
